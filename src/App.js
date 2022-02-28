@@ -1,6 +1,6 @@
 import "./App.css";
 /*import User from "./componentes/User";*/
-import Quotes from "./componentes/QuotesBox";
+import Quotes from "./components/QuotesBox";
 
 function App() {
  
