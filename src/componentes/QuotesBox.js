@@ -29,13 +29,13 @@ const Quotes = () => {
 
     return (
        <div className="card" style={{ color: color }}>
-      <h3 className="phrase">
+      <h3>
       <i class="fa-solid fa-quote-left"></i>
         {quote.quote}
         <br />
        
       </h3>
-      <a className="Author">{quote.author}</a>
+      <p className="Author">{quote.author}</p>
       <br />
       <button onClick={changeQuotes} style={{ color: color }}>
       <i class="fa-solid fa-angle-right"></i>
